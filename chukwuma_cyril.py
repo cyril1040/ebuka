@@ -4,6 +4,8 @@ gender = input(" enter gender: ")
 number = input(" enter phone number: ")
 if age >= 18:
     print(full_name + " welcome to our boutique" )
+else:
+    print(" you must be 18 or above")
 our_products = {"bags": 80, "shirts": 100, "shoes": 40, "trousers": 80, "belts": 20, "underwears": 75, "cap": 10, "wrist_watch": 55}
 for key, values in our_products.items():
     print(key, values)
@@ -16,8 +18,9 @@ for key, values in our_products.items():
             break
         else:
             print(' not available')
-else:
-    print(' you must be up to 18')
+
+            
+print(" thanks for patronising us")
 
 
 
